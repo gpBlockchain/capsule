@@ -12,13 +12,14 @@ description = "CKB contract testing tools"
 ckb-always-success-script = "0.0.1"
 rand = "0.8"
 lazy_static = "1.4"
-ckb-chain-spec = "=0.111.0-rc10"
-ckb-types = "=0.111.0-rc10"
-ckb-error = "=0.111.0-rc10"
-ckb-script = "=0.111.0-rc10"
-ckb-hash = "=0.111.0-rc10"
-ckb-jsonrpc-types = "=0.111.0-rc10"
-ckb-crypto = "=0.111.0-rc10"
-ckb-resource = "=0.111.0-rc10"
-ckb-verification = "=0.111.0-rc10"
-ckb-traits = "=0.111.0-rc10"
+ckb-chain-spec = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-chain-spec" }
+ckb-types = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-types" }
+ckb-error = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-error" }
+ckb-script = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-script" }
+ckb-hash = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-hash" }
+ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-jsonrpc-types" }
+ckb-crypto = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-crypto" }
+ckb-resource = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-resource" }
+ckb-verification = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-verification" }
+ckb-traits = { git = "https://github.com/nervosnetwork/ckb", branch = "develop", package = "ckb-traits" }
+
