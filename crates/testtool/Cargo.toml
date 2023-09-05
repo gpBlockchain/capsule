@@ -12,13 +12,13 @@ description = "CKB contract testing tools"
 ckb-always-success-script = "0.0.1"
 rand = "0.8"
 lazy_static = "1.4"
-ckb-chain-spec = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-chain-spec" }
-ckb-types = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-types" }
-ckb-error = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-error" }
-ckb-script = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-script" }
-ckb-hash = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-hash" }
-ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-jsonrpc-types" }
-ckb-crypto = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-crypto" }
-ckb-resource = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-resource" }
-ckb-verification = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-verification" }
-ckb-traits = { git = "https://github.com/nervosnetwork/ckb", branch = "v0.111.0-rc11", package = "ckb-traits" }
+ckb-chain-spec = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-chain-spec" }
+ckb-types = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-types" }
+ckb-error = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-error" }
+ckb-script = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-script" }
+ckb-hash = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-hash" }
+ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-jsonrpc-types" }
+ckb-crypto = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-crypto" }
+ckb-resource = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-resource" }
+ckb-verification = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-verification" }
+ckb-traits = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.111.0-rc11", package = "ckb-traits" }
