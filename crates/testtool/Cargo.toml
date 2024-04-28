@@ -13,14 +13,24 @@ repository = "https://github.com/nervosnetwork/capsule"
 ckb-always-success-script = "0.0.1"
 rand = "0.8"
 lazy_static = "1.4"
-ckb-chain-spec = "0.114.0"
-ckb-types = "0.114.0"
-ckb-error = "0.114.0"
-ckb-script = "0.114.0"
-ckb-hash = "0.114.0"
-ckb-jsonrpc-types = "0.114.0"
-ckb-crypto = "0.114.0"
-ckb-resource = "0.114.0"
-ckb-verification = "0.114.0"
-ckb-traits = "0.114.0"
-ckb-mock-tx-types = "0.114.0"
+ckb-chain-spec = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-chain-spec"}
+ckb-types = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-types"}
+
+ckb-error = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-error"}
+
+ckb-script = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-script"}
+
+ckb-hash = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-hash"}
+
+ckb-jsonrpc-types = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-jsonrpc-types"}
+
+ckb-crypto = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-crypto"}
+
+ckb-resource = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-resource"}
+
+ckb-verification = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-verification"}
+
+ckb-traits = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-traits"}
+
+#ckb-mock-tx-types = {git = "https://github.com/libraries/ckb.git",branch = "new_spawn",package="ckb-mock-tx-types"}
+ckb-mock-tx-types =  "0.115.0-rc2"
